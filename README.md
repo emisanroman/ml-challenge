@@ -5,13 +5,16 @@ Para la solución se consideró comocadenas válida en el caso de más de 4 stri
 ### Ejecutar api
 - Clonar o descargar el repositorio de Github rama main
 - Agregar archivo config.json en la raíz del proyecto indicando puerto y url a la base mongodb
+```
   { "development":{
       "port": 5000,
       "db_url": "mongodb+srv://admin:admin@cluster0.q8kxo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   }}
-- Ejecutar npm start 
+  ```
+- Ejecutar _npm i_
+- Ejecutar _npm start_ 
 
-Para ejecutar los test: npm test
+Para ejecutar los test: _npm test_
 
 
 ### Nivel 2
